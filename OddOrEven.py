@@ -10,3 +10,11 @@ elif number % 2 == 0:
     print(number, "is even.")
 else:
     print(number, "is odd.")
+
+
+numerator = int(input("State the numerator: "))
+denominator = int(input("State the denominator: "))
+if numerator % denominator == 0:
+    print(numerator, "is evenly divisible by", denominator)
+else:
+    print(numerator, "is not evenly divisible by", denominator)
