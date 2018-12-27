@@ -7,5 +7,8 @@ The result will be printed in the console.
 
 name = input("State your name: ")
 age = input("State your age: ")
+times = input("How many times do you want it to be printed?")
 y = 2018 - int(age) + 100
-print("You will turn 100 in year: ", y)
+
+for i in range(0, int(times)):
+    print(name + ", you will turn 100 in year: " + y)
